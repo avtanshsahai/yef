@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dacc"
+    tools:context="com.example.dellpc.hw_24022018.MainActivity"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:padding="10dp"
+        android:hint="TEXT 1"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:padding="10dp"
+        android:hint="TEXT 2"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="#dddd"
+        android:layout_gravity="center"
+        android:text="GET LIST"
+        />
+    <LinearLayout
+        android:id="@+id/LL2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+        <ListView
+            android:id="@+id/lv1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+         />
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:padding="10dp"
+            android:layout_gravity="top"
+            android:text="SAVE"
+         />
+
+
+    </LinearLayout>
+
+</LinearLayout>
